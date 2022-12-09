@@ -7,13 +7,13 @@
     <FlexLayout Direction="Column"
                 AlignItems="Center">
         <Image Source="kolofap.svg" HeightRequest="50"/>
-        <Border Stroke="#C49B33"
+        <Border Stroke="#000000"
         StrokeThickness="4"
-        Background="#2B0B98"
+        Background="#F4F4F4"
         Padding="16,8"
         HorizontalOptions="Center">
             <Border.StrokeShape>
-                <RoundRectangle CornerRadius="40,0,0,40" />
+                <RoundRectangle CornerRadius="0,0,0,0" />
             </Border.StrokeShape>
             <Editor 
                 x:Name="search"
@@ -21,23 +21,6 @@
                 WidthRequest="250"
                 AutoSize="TextChanges"/>
         </Border>
-        <!--<Border 
-            Stroke="#C49B33"
-            StrokeThickness="4"
-            Background="#2B0B98"
-            Padding="16,8"
-            HorizontalOptions="Center">
-            
-            <Border.StrokeShape>
-                <RoundRectangle CornerRadius="40,0,0,40" />
-            </Border.StrokeShape>
-
-            <Editor 
-                x:Name="search"
-                Placeholder="search"
-                HeightRequest="250"
-                AutoSize="TextChanges"/>
-        </Border>-->
     </FlexLayout>
 
 
