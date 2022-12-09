@@ -8,7 +8,7 @@
                 AlignItems="Center">
         <Image Source="kolofap.svg" HeightRequest="50"/>
         <Border Stroke="#000000"
-        StrokeThickness="4"
+        StrokeThickness="1"
         Background="#F4F4F4"
         Padding="16,8"
         HorizontalOptions="Center">
