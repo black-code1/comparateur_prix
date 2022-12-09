@@ -3,13 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Rater.MainPage">
 
+    
     <FlexLayout Direction="Column"
                 AlignItems="Center">
         <Image Source="kolofap.svg" HeightRequest="50"/>
-        
-        <Editor x:Name="search"
-            Placeholder="search"
-            HeightRequest="250" />
+        <Border Stroke="#C49B33"
+        StrokeThickness="4"
+        Background="#2B0B98"
+        Padding="16,8"
+        HorizontalOptions="Center">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="40,0,0,40" />
+            </Border.StrokeShape>
+            <Editor 
+                x:Name="search"
+                Placeholder="search"
+                WidthRequest="250"
+                AutoSize="TextChanges"/>
+        </Border>
+        <!--<Border 
+            Stroke="#C49B33"
+            StrokeThickness="4"
+            Background="#2B0B98"
+            Padding="16,8"
+            HorizontalOptions="Center">
+            
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="40,0,0,40" />
+            </Border.StrokeShape>
+
+            <Editor 
+                x:Name="search"
+                Placeholder="search"
+                HeightRequest="250"
+                AutoSize="TextChanges"/>
+        </Border>-->
     </FlexLayout>
 
 
